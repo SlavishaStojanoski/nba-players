@@ -1,0 +1,54 @@
+.navbar-menu {
+  background: repeating-linear-gradient(
+    -45deg,
+    #fa8320,
+    #7f0000 20px,
+    #171a29 20px,
+    #171a29 22px
+  );
+  /* background-color: rgb(182, 105, 60); */
+  height: 60px;
+  width: 100%;
+  position: top;
+  z-index: 999;
+}
+
+/* .logo {
+  background-image: url('../img/nbalogo.jpg');
+  background-size: cover;
+  width: 59px;
+  height: 59px;
+  margin-left: 35px;
+  cursor: pointer;
+  display: inline-block;
+} */
+
+.content-left {
+  float: left;
+}
+
+.content-right {
+  float: right;
+}
+
+nav ul li {
+  display: flex;
+  display: inline-block;
+  line-height: 55px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+a.active,
+a:hover {
+  /* background-color: #ce3115; */
+  text-decoration: underline;
+  transition: 0.5s;
+}

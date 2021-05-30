@@ -1,0 +1,64 @@
+.loginBody {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('../img/lights.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.box {
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  /* background:rgba(223, 46, 46, 0.15); */
+  /* background-color: transparent; */
+  text-align: center;
+}
+.header {
+  color: rgb(98, 139, 252);
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.box input[type='text'],
+.box input[type='password'] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.box input[type='text']:focus,
+.box input[type='password']:focus {
+  width: 270px;
+  border-color: #9b988eec;
+}
+.subButton {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #0367fd;
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 14px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+.subButton:hover {
+  background: #0059ffec;
+}
